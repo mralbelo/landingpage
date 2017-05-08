@@ -25,6 +25,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
   },
   "dependencies": {
+    "angular": "^1.6.4",
     "instafeed.js": "^1.4.1"
   }
 }

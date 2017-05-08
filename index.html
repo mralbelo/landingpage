@@ -25,7 +25,7 @@
     <script type="text/javascript" src="node_modules/instafeed.js/instafeed.js"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" ng-app="mralbelo">
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -96,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section id="portfolio" class="portfolio-section text-center">
+    <section id="portfolio" class="portfolio-section text-center" ng-controller="FeedController as ctrl">
         <div class="porfolio-section">
             <div class="container">
                 <script type="text/javascript">
@@ -126,6 +126,11 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- core -->
+    <script src="/node_modules/angular/angular.js"></script>
+
+    <script src="app.js" ></script>
 </body>
 
 </html>
