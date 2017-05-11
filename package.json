@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "angular": "^1.6.4",
-    "instafeed.js": "^1.4.1"
+    "instafeed.js": "^1.4.1",
+    "muicss": "^0.9.16"
   }
 }
